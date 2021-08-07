@@ -1,0 +1,92 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.BdayApp {
+	background-color: #fdd85d;
+	min-height:80vh;
+	padding-bottom:20px;
+}
+
+.Bday-container {
+	min-height:20vh;
+	width:50%;
+	margin: 0 auto;
+	background-color: #fff !important;
+  	padding: 20px 40px;
+	box-shadow: 0 6px 20px rgba(23, 23, 24, 0.17);
+	-webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+	filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+	border-radius: 20px;
+}
+
+.Bday-main {
+	min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-color: #fdd85d !important;
+	margin-top:0 !important;
+	margin-bottom: 30px !important;
+}
+
+.Bday-container h3 {
+	font-weight: normal;
+	text-transform: none;
+  	font-size: 25px;
+	margin-bottom: 2rem;
+}
+
+.person {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	column-gap: 0.75rem;
+	margin-bottom: 1.5rem;
+	align-items: center;
+}
+
+.person img {
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: var(--light-shadow);
+}
+
+.person h4 {
+	margin-bottom: 0.35rem;
+}
+
+.person p {
+	margin-bottom: 0;
+}
+
+.Bday-container button {
+	color: rgb(255, 255, 255);
+	display: block;
+	width: 50%;
+	border-color: transparent;
+	background: #ffc600;
+	border-radius: 30px;
+	margin: 2rem auto 0 auto;
+	text-transform: capitalize;
+	font-size: 1.2rem;
+	padding: 0.5rem 0;
+	outline: 1px solid white;
+	cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .Bday-container button {
+        width:80%;
+    }
+	.Bday-container {
+		width:80%;
+	}
+}

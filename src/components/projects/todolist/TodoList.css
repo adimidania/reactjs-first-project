@@ -1,0 +1,111 @@
+.to-do-list-container {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-color: #ea84c9 !important;
+}
+.todoApp {
+    background-color: #ea84c9 !important;
+}
+.todolist {
+    display: flex;
+    flex-direction: column;
+}
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    margin:10px !important;
+    width:50%;
+    min-height:80%;
+    box-shadow: 0 6px 20px rgba(23, 23, 24, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    text-decoration: none;
+}
+.inputs {
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    align-items: center;
+}
+.inputs input {
+    width:250px;
+    padding:3px;
+    border:1.2px solid rgb(216, 215, 215);
+    margin-top: 2px;
+    margin-right:1px;
+}
+.Add, .clear {
+    padding:4.2px;
+    background-color: #ef94d5;
+    border:none;
+    color:white;
+    margin-top: 2px;
+}
+.Add {
+    margin-right:1px;
+}
+.check {
+    margin-right:5px;
+}
+@media screen and (max-width: 932px) {
+    .to-do-list {
+        width:60%;
+    }
+}
+@media screen and (max-width: 842px) {
+    .to-do-list {
+        width:70%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons {
+        width:250px;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+    }
+    .clear {
+        width: 50%;
+    }
+    .Add {
+        width: 50%; 
+    }
+}
+@media screen and (max-width: 450px) {
+    .to-do-list {
+        width:90%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .inputs input {
+        width:100px;
+        padding:3px;
+    }
+    .buttons {
+        width:100px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .clear {
+        width: 100%;
+    }
+    .Add {
+        width: 100%; 
+    }
+}
+

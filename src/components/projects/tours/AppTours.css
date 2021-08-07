@@ -1,0 +1,124 @@
+
+  .tours {
+    background-color: #c6ac8f;
+  }
+  .title h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 45px;
+    margin-bottom:5px !important;
+  }
+  .tours-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .single-tour {
+    background: white;
+    border-radius: 25px;
+    width: 50%;
+    margin: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s linear;
+  }
+  .single-tour:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);;
+  }
+  .single-tour img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+  }
+  .tour-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .tour-info h4 {
+    margin-bottom: 0;
+  }
+  .single-tour button {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    color:#5e503f;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 0.25rem;
+  }
+  .tour-price {
+    color: white;
+    font-weight: normal;
+    background: #5e503f;
+    padding: 0.25rem 0.5rem;
+  }
+  .single-tour footer {
+    padding: 1.5rem 2rem;
+  }
+  .single-tour .delete-btn {
+    display: block;
+    width: 200px;
+    margin: 1rem auto 20px auto;
+    color: #5e503f;
+    background: transparent;
+    border: 1px solid #5e503f;
+    padding: 0.25rem 0.5rem;
+  }
+  .delete-btn:hover {
+    color: #fff;
+    background: #5e503f;
+  }
+
+  .Loading {
+    text-align: center;
+    font-size:40px;
+    margin:0;
+    padding:0;
+    width:100%;
+    min-height:90vh;
+    padding:30px 0px;
+  }
+  .container-tours {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items:flex-start;
+    background-color: #c6ac8f;
+    color:rgb(255, 255, 255);
+  }
+  .no-tours {
+    margin:0 !important;
+    width:100%;
+    min-height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 0px;
+  }
+  .no-tours-text {
+    font-size:40px;
+    width:350px;
+    margin-bottom:8px;
+  }
+  .btn-refresh {
+    background-color: transparent;
+    color:white;
+    font-size: 30px;
+    border:none;
+  }
+  .title {
+    text-align: center;
+  }
+  @media screen and (max-width: 700px) {
+    .single-tour {
+        width:70%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .single-tour {
+        width:90%;
+    }
+  }

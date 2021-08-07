@@ -1,0 +1,169 @@
+.AppTodoListUpdate {
+	background: #000;
+    min-height: 100vh;
+}
+
+.alert {
+    margin: 8px;
+	margin-bottom: 5px;
+	height:22px;
+	text-align: center;
+	font-size: 13px;
+	padding:2px;
+	text-transform: capitalize;
+}
+
+.alert-danger-list {
+	color: #ef233c;
+}
+
+.alert-success-list {
+	color: #155724;
+}
+
+.todolist-updated {
+    background: #fff;
+    width: 60%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(23, 23, 24, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+	border-radius: 12px;
+}
+.todolist-updated h3 {
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    margin:10px 0px;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: center;
+    margin:25px 0px;
+}
+
+.task-todo {
+	padding: 0.25rem;
+    background: #fff;
+	border:1.1px solid black;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-right:4px;
+}
+
+.task-todo::placeholder {
+	color: black;
+}
+
+
+.submit-btn-todolist {
+	border:1.1px solid #000;
+	color: white;
+	background-color: #000;
+	align-items: center;
+	padding: 0.25rem 0.6rem;
+	text-transform:uppercase;
+	border-radius: 7px;
+	cursor: pointer;
+	font-size: 0.85rem;
+}
+
+.todolist-update-container {
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.a-task-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: 7px;
+	text-transform: capitalize;
+	border-left: 1.5px;
+	border-color: black;
+	min-width:200px;
+}
+
+.task-name-update {
+	margin-bottom: 0;
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	font-size: 15px;
+}
+.task-name-update-checked {
+	text-decoration: line-through;
+}
+
+.edit-btn-todo,
+.delete-btn-todo {
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	margin: 0 0.15rem;
+	font-size: 11px;
+}
+
+.edit-btn-todo:hover {
+	color: #b5e48c;
+}
+
+.delete-btn-todo, .edit-btn-todo {
+	color:#5c5c5c;
+}
+
+.delete-btn-todo:hover {
+	color: #ef233c;
+}
+
+.clear-btns {
+	display: flex;
+	flex-direction: row;
+	margin-bottom:25px;
+	margin-top:20px;
+}
+
+.clear-all-btn-todolist {
+	border:1.3px solid #000;
+	color: white;
+	background-color: #000;
+	align-items: center;
+	padding: 0.25rem;
+	text-transform:uppercase;
+	border-radius: 7px;
+	cursor: pointer;
+	font-size: 0.85rem;
+	margin-left:4px;
+}
+.clear-btn-todolist {
+	border:1.3px solid #000;
+	background-color: #fff;
+	color:black;
+	align-items: center;
+	padding: 0.25rem;
+	text-transform:uppercase;
+	border-radius: 7px;
+	cursor: pointer;
+	font-size: 0.85rem;
+}
+@media screen and (max-width: 550px) {
+	.todolist-updated {
+		width: 85%;
+	}
+}
+@media screen and (max-width: 350px) {
+	.todolist-updated {
+		width: 95%;
+	}
+	.a-task-item {
+		min-width:100px;
+	}
+}

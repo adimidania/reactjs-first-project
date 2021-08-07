@@ -1,0 +1,111 @@
+.container-tabsApp {
+    background-color: #C8E5E2 !important;
+    min-height: 100vh;
+}
+.Loading {
+    text-align: center;
+    color: white;
+  }
+  
+  .container-tabsApp .underline {
+    width: 5rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+    background: #006D77;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-tabs {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .title-tabs h2 {
+      font-weight: normal;
+      font-size: 32px;
+  }
+  
+  .jobs-center {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .btn-container-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  .job-btn {
+    background: transparent;
+    border:1.5px solid #006D77;
+    color: #006D77;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    padding: 0.3rem 0;
+    line-height: 1;
+    outline-color:  #006D77;
+  }
+  .job-btn:hover {
+    color: white;
+    background: #006D77;
+  }
+  .active-btn {
+    color: white;
+    background: #006D77;
+  }
+  
+  .job-info h3 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .job-info h4 {
+    text-transform: uppercase;
+    background: #e6e6e6;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    margin:3px 0;
+    border-radius: 8px;
+    font-weight: normal;
+  }
+  .job-date {
+    letter-spacing:1.5px;
+    margin:2px 0px;
+    margin-bottom: 5px;
+  }
+  .job-desc {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+  }
+  .job-desc p {
+    margin-bottom: 0;
+    color: var(--clr-grey-3);
+  }
+  .job-icon {
+    color: #006D77;
+  }
+  @media screen and (min-width: 700px) {
+    .jobs-center {
+      width: 90vw;
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      column-gap: 4rem;
+    }
+    .btn-container-tabs {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .job-btn {
+      margin-bottom: 1rem;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .btn-container-tabs {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+

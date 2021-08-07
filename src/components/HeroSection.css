@@ -1,0 +1,113 @@
+
+  .hero-container {
+    padding:0px 20px;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-color: #000 !important;
+  }
+
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  .title-hero {
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: -05px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 40px;
+      margin-top: -100px;
+    }
+  }
+  
+  @media screen and (max-width: 781px) {
+    .hero-container > h1 {
+      font-size: 30px;
+      margin-top: -90px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+}  
+
+  .container-logo{
+    width:250px;
+    height:250px;
+    margin:20px auto 0 auto;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .react-logo{
+    display: inline-block;
+    border-radius:50%;
+    border:10px solid #99F0FF;
+
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+  }
+
+  .react-logo , .react-logo:before , .react-logo:after{
+    position:absolute;
+    display: inline-block;
+    width:200px;
+    height:70px;
+    border-radius:50%;
+    border:10px solid #99F0FF;
+  }
+
+  .nucleo , .react-logo , .react-logo:before , .react-logo:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nucleo{
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background:#99F0FF;
+  }
+
+  .react-logo:before , .react-logo:after{
+    content:"";
+  }
+
+  .react-logo:after{
+    transform:rotate(-57deg);
+  }
+
+  .react-logo:before{
+    transform:rotate(57deg);
+  }
+  
+
+  @keyframes rotate{
+
+    100%{
+      transform:rotate(360deg);
+    }
+  }

@@ -1,0 +1,47 @@
+.question {
+    background: #80ed99;
+    margin:8px;
+    border-radius: 5px;
+    padding: 15px;
+    color:white;
+}
+.question h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+.container-app-question {
+    border-radius: 5px;
+    background: #fff;
+    width:50%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom:20px;
+    box-shadow: 0 6px 20px rgba(23, 23, 24, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+.AppQuestions {
+    background: #c7f9cc;
+    min-height: 100vh; 
+    padding-bottom:20px;
+}
+.question header {
+    display: flex;
+    flex-direction: row;
+}
+.question span button {
+    background: none;
+    color:white;
+    padding:0;
+    padding-right:8px;
+}
+.container-app-question h3 {
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 400Px) {
+    .container-app-question {
+        width:90%;
+    }
+}

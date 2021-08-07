@@ -1,0 +1,66 @@
+.btn-generate-text {
+	text-transform: uppercase;
+	background: #f9c8d9;
+	padding: 0.375rem 0.75rem;
+	letter-spacing: 1px;
+	display: inline-block;
+	font-size: 0.875rem;
+	border: 2px solid #f9c8d9;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+.btn-generate-text:hover {
+	background: #ffc4d9;
+	border-color: #ffc4d9;
+}
+
+.AppParagraph {
+	text-align: center;
+	background-color: #f7fcb9;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.AppParagraph h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+
+.paragraph-form {
+	padding-top: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragraph-text {
+	padding-top: 20px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragraph-form label {
+	font-size: 1.25rem;
+}
+
+.paragraph-form input {
+	padding: 0.225rem 0.5rem;
+	width: 4rem;
+	border-radius: 3px;
+	border: none;
+	margin: 0 0.5rem;
+	font-size: 1.25rem;
+	background-color: #f7fcb9;
+}
+.result {
+	margin-bottom: 2rem;
+}

@@ -1,0 +1,50 @@
+.story {
+    text-align: justify;
+    font-size: 22px;
+    padding:30px 50px 10px 50px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    line-height: 38px;
+    min-height:90vh;
+}
+.Resources {
+    padding:30px 50px 10px 50px;
+    min-height:90vh;
+}
+.Link-resources {
+    font-size: 23px;
+    text-decoration: none;  
+    color: #000;
+}
+.Link-resources:active {
+    color: #000;
+}
+.LiLink-resourcesnk:hover {
+    color: #99F0FF;
+}
+.learning-path {
+    text-decoration: none;  
+    color: #99F0FF;
+}
+.Resources-description {
+    font-size: 23px;
+    text-align: justify;
+    line-height: 30px;
+    padding-bottom: 25px;
+    margin:0;
+}
+.Resources ul li {
+    padding:10px;
+}
+.Resources ul {
+    text-align: center;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.title-resources {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin:0;
+}
